@@ -1,5 +1,9 @@
 # reqstrategy
 
+[![Documentation](https://godoc.org/github.com/syavorsky/reqstrategy?status.svg)](http://pkg.go.dev/github.com/syavorsky/reqstrategy)
+[![license](https://img.shields.io/github/license/syavorsky/reqstrategy.svg?maxAge=2592000)](https://github.com/syavorsky/reqstrategy/LICENSE)
+
+
 Package `reqstrategy` provides functions for coordinating `http.Client` calls. It wraps typical call strategies like making simultaneous requests, retrying, racing etc.
 
 First, define what request counts successful, there are two helpers adding rules to the request context
