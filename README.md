@@ -13,7 +13,7 @@ req, _ = http.NewRequest("GET", "http://localhost/", nil)
 req = WithStatusRequired(req, 200, 404)
 ```
 
-or do adavanced validation using custom logic
+or do advanced validation using custom logic
 
 ```go
 req, _ = http.NewRequest("GET", "http://localhost/", nil)
